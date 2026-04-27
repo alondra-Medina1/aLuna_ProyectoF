@@ -1,0 +1,340 @@
+.contenedor-principal {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+h1 { font-size: 1.8rem; margin-bottom: 10px; }
+h2 { font-size: 1.3rem; font-weight: 500; margin-bottom: 20px; }
+h3 { font-size: 1.2rem; margin: 20px 0; }
+
+.descripcion {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 850px;
+  margin: 0 auto 40px;
+}
+
+.linea-separadora {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 30px 0;
+}
+
+/* Botones Metodologías */
+.fila-botones {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-met {
+  border: none;
+  color: white;
+  padding: 10px 0;
+  width: 180px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.btn-azul { background-color: #0056b3; }
+.btn-gris-oscuro { background-color: #5a6268; }
+.btn-verde { background-color: #28a745; }
+.btn-rojo { background-color: #bd2130; }
+.btn-naranja { background-color: #d39e00; }
+.btn-celeste { background-color: #17a2b8; }
+.btn-negro { background-color: #212529; }
+
+/* Links Punteados */
+.link-punteado {
+  display: inline-block;
+  padding: 8px 25px;
+  border: 1px dashed #666;
+  text-decoration: none;
+  color: #0056b3;
+  background: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-regresar { color: #555; margin-bottom: 30px; }
+
+/* Info Alumno */
+.info-alumno { margin-top: 20px; }
+.ejemplo { font-style: italic; color: #555; }
+.nombre-alumno { font-size: 1.2rem; margin-top: 15px; }
+
+/* Modal Estilo Imagen subida */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-ventana {
+  background: white;
+  width: 600px;
+  max-width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+
+.modal-header {
+  padding: 10px 15px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: #444;
+}
+
+.cerrar-modal {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #888;
+}
+
+.modal-body { padding: 15px; }
+.modal-body img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Estilos para el perfil */
+.imagen-perfil {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.contenedor-perfil {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contenedor-perfil img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.contenedor-perfil h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contenedor-perfil p {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.enlaces-inferiores {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.enlaces-inferiores a,
+.boton-enlace,
+.boton-google {
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.enlaces-inferiores a,
+.boton-enlace {
+  background-color: transparent;
+  color: #00a0ff;
+  border: none;
+}
+
+.enlaces-inferiores a:hover,
+.boton-enlace:hover {
+  color: #00d0ff;
+}
+
+.boton-google {
+  background-color: white;
+  color: #333;
+  font-weight: 600;
+  margin-top: 20px;
+  min-width: 200px;
+}
+
+/* Contenedor de fondo que cubre toda la pantalla */
+.pantalla-oscura {
+  background-color: #2c3e50; /* Gris oscuro como en la imagen */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+/* Tarjeta blanca central (Centro de Descargas) */
+.centro-descargas-directo {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 650px; /* Ancho similar al de la imagen */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  text-align: center;
+}
+
+/* Título azul */
+.titulo-seccion {
+  color: #0056b3;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.descripcion-texto {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+/* Contenedor de botones en columna */
+.lista-botones {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Espacio entre botones */
+}
+
+/* Estilo base de los botones de descarga */
+.btn-descarga {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-descarga:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+}
+
+/* Colores específicos según la imagen 2 */
+.azul-custom { background-color: #006ce0; }
+.verde-custom { background-color: #1e7e34; }
+.oscuro-custom { background-color: #161b22; }
+
+/* Enlaces sin subrayado */
+.lista-botones a {
+  text-decoration: none;
+}
+
+/* Estilos para el texto del perfil */
+.evaluacion-texto {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.alumno-texto {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+/* Estilos para la Evaluación Parcial 3 */
+.contenedor-evaluacion3 {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.bienvenida-titulo {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.evaluacion-titulo {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.lista-botones-evaluacion3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-evaluacion3 {
+  padding: 14px 20px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  width: auto;
+  min-width: 300px;
+}
+
+.btn-blanco {
+  background-color: white;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-blanco:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.lista-botones-evaluacion3 a {
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../5 A Practica/Practicas AplicacionesWeb JuanPablo"
+		},
+		{
+			"path": "../../../5 A Practica/Practicas ApliMovil Anna"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Practicas ApliMovil Anna"
+	}
+}
